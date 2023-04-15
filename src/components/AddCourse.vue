@@ -15,6 +15,7 @@
    
 <script>
     import axios from 'axios';
+    import {getAuthenticationToken} from '@/dataStorage';
 
     export default {
       name: "AddCourse",
